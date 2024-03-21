@@ -7,7 +7,7 @@ const path = require("path");
 const app = express();
 app.use(cors());
 
-const publicDirectoryPath = path.join(__dirname, '../client/src');
+const publicDirectoryPath = path.join(__dirname, '../client');
 app.use(express.static(publicDirectoryPath));
 
 const server = http.createServer(app);
