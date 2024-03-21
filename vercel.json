@@ -7,7 +7,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "client/src/main.jsx"
+        "dest": "client/index.html"
       }
     ]
   }
