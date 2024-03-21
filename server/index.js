@@ -2,11 +2,18 @@ const express = require("express");
 const http = require("http");
 const cors = require("cors");
 const { Server } = require("socket.io");
+const path = require("path");
 
 // Create an Express app
 const app = express();
 // Enable Cross-Origin Resource Sharing (CORS)
 app.use(cors());
+
+// Define paths for static files
+const publicDirectoryPath = path.join(__dirname, '../client/src');
+
+// Serve static files
+app.use(express.static(publicDirectoryPath));
 
 // Create an HTTP server using the Express app
 const server = http.createServer(app);
