@@ -10,7 +10,8 @@ const app = express();
 app.use(cors());
 
 // Define paths for static files
-const publicDirectoryPath = path.join(__dirname, '../client/src');
+const publicDirectoryPath = path.join(__dirname, '../client');
+
 
 // Serve static files
 app.use(express.static(publicDirectoryPath));
