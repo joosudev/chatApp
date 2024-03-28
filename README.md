@@ -1,16 +1,16 @@
 # ChatApp
-**Descipcion:**: Chat App es una aplicación diseñada para ofrecer una experiencia de mensajería instantánea fácil y conveniente. Con características como mensajería en tiempo real y emojis
+**Descipcion:** Chat App es una aplicación diseñada para ofrecer una experiencia de mensajería instantánea fácil y conveniente. Con características como mensajería en tiempo real y emojis
 
 ## Utilización
 
 **Uso:** Su uso es muy sencillo. Solo tienes que abrir dos pestañas que simularan ser dos personas, presionas clic en el botón que dice: Empieza a chatear y listo empieza a enviar mensajes.
 
 ## Características Principales
-**Interfaz Intuitiva**: Interfaz Simple y facil de usar.
+**Interfaz Intuitiva:** Interfaz Simple y facil de usar.
 
-**Chat**: Mensajes en tiempo Real.
+**Chat:** Mensajes en tiempo Real.
 
-**Emojis**: Puedes Incluir Emojis en los mensajes.
+**Emojis:** Puedes Incluir Emojis en los mensajes.
 
 ## Tecnologías Stack
 
